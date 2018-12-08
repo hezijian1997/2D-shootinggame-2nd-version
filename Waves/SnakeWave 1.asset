@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ccf36402cc1977345bc99c9e168d4727, type: 3}
+  m_Name: SnakeWave 1
+  m_EditorClassIdentifier: 
+  enemyPrefab: {fileID: 1343565376150466, guid: bd8db4cba1a860c48b0b7654396e01b6,
+    type: 2}
+  pathPrefab: {fileID: 1464938130394870, guid: b5fff61d757a6de45918eb401464c7b0, type: 2}
+  timeBetweenSpawns: 0.5
+  spawnRandomFactor: 0.3
+  numberOfEnemies: 5
+  moveSpeed: 5
